@@ -1,0 +1,30 @@
+.register-wrapper{
+    max-width:500px;
+    padding:20px;
+    background-color:#333;
+    margin:30px auto;
+}
+.register-wrapper > * div{
+    width:100%;
+    margin:10px;
+    padding:10px;
+}
+.register-wrapper > * input{
+    width:100%;
+    margin:10px 0;
+    padding:8px;
+    box-sizing:border-box;
+    border-radius:12px;;
+}
+.register-wrapper .registerBtn{
+    display:flex;
+    justify-content:center;
+}
+.register-wrapper button{
+    padding:5px 70px;
+    margin-top:10px;
+    box-sizing:border-box;
+    border-radius:7px;
+    font-size:20px;
+    cursor: pointer;
+}

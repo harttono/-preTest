@@ -1,0 +1,60 @@
+body{
+    background:#eee;
+}
+.verify-wrapper{
+    max-width:500px;
+    padding:20px;
+    background-color:#888;
+    margin:30px auto;
+    border-radius:8px;
+    text-align: center;
+    display:grid;
+    color:white;
+}
+.otp{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+
+}
+.verify-wrapper > * input{
+    width:50px;
+    margin:10px 0;
+    text-align:center;
+    padding:8px;
+    box-sizing:border-box;
+    border-radius:5px;
+    background-color:#fff;
+    font-size:15px;
+    border:2px solid #005e96;
+}
+.verify-wrapper .verifyBtn{
+    display:grid;
+    grid-template-columns: repeat(2,160px);
+    grid-template-areas:
+            'btn btn'
+            'txt txt';
+    justify-items:center;
+    place-self:center ;
+}
+.verify-wrapper .verifyBtn button{
+    grid-area:btn;
+    padding:10px 70px;
+    margin-top:10px;
+    box-sizing:border-box;
+    border-radius:10px;
+    font-size:20px;
+    cursor: pointer;
+}
+.verify-wrapper .verifyBtn p{
+    grid-area:txt;
+    margin-top:10px;
+    font-size:20px;
+}
+.verifyBtn a{
+    font-weight:bold;
+    color:#fff;
+}
+.verifyBtn btn{
+    background-color:#666;
+}

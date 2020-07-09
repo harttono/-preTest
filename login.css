@@ -1,0 +1,30 @@
+.login-wrapper{
+    max-width:500px;
+    padding:20px;
+    background-color:#333;
+    margin:50px auto;
+}
+.login-wrapper > * div{
+    width:100%;
+    margin:10px;
+    padding:10px;
+}
+.login-wrapper > * input{
+    width:100%;
+    margin:10px 0;
+    padding:8px;
+    box-sizing:border-box;
+    border-radius:12px;;
+}
+.login-wrapper .loginBtn{
+    display:flex;
+    justify-content:center;
+}
+.login-wrapper button{
+    padding:5px 70px;
+    margin-top:10px;
+    box-sizing:border-box;
+    border-radius:7px;
+    font-size:20px;
+    cursor: pointer;
+}
